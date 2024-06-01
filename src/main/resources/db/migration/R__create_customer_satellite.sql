@@ -1,0 +1,2 @@
+create table customer_satellite (id varchar(50) not null, country varchar(100), launch_date date,
+mass numeric, launcher varchar(50) not null references launcher(id), constraint customer_satellite_id_pk primary key (id));

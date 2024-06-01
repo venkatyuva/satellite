@@ -1,0 +1,1 @@
+create table launcher (id varchar(50) not null, launcher_type varchar(100), registered_on date, constraint id_pk primary key (id));
